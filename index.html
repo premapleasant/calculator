@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>CALCULATOR</h1>
+   <div><input type="text" class="box" readonly></div>
+   <div class="numbers">
+     <button class="reset" onclick="reset()">AC</button>
+     <button class="delete dis" onclick="delet()">X</button>
+     <button class="madulo num dis" onclick="show(this)">%</button>
+     <button class="div num dis" onclick="show(this)">/</button><br>
+     <button class="seven num dis" onclick="show(this)">7</button>
+     <button class="eight num dis" onclick="show(this)">8</button>
+     <button class="nine num dis" onclick="show(this)">9</button>
+     <button class="mul num dis" onclick="show(this)">*</button><br>
+     <button class="four num dis" onclick="show(this)">4</button>
+     <button class="five num dis" onclick="show(this)">5</button>
+     <button class="six num dis" onclick="show(this)">6</button>
+     <button class="sub num dis" onclick="show(this)">-</button><br>
+     <button class="one num dis" onclick="show(this)">1</button>
+     <button class="two num dis" onclick="show(this)">2</button>
+     <button class="three num dis" onclick="show(this)">3</button>
+     <button class="add num dis" onclick="show(this)">+</button><br>
+     <button class="dot num dis" onclick="show(this)">.</button>
+     <button class="zero num dis" onclick="show(this)">0</button>
+     <button class="double num dis" onclick="show(this)">00</button>
+     <button class="equal" onclick="calculate()">=</button>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

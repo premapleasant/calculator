@@ -1,0 +1,57 @@
+.container{
+    
+    justify-content: center;
+    align-items: center; 
+    text-align: center;   
+    margin-top: 8%;          
+
+}
+button{
+    padding: 20px;
+    width: 8%;
+    height: 11%;
+    margin-top: 3px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid 1px black;
+    text-align: center;
+}
+.box{
+    width: 29%;
+    height: 20%;
+    padding: 25px;
+    margin-bottom:5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: large;
+}
+.equal{
+    background-color: chocolate;
+}
+.reset, .delete, .madulo, .div, .add, .sub, .mul{
+    color: chocolate;
+}
+.dot{
+    font-weight: bolder;
+}
+@media(max-width:767px){
+   button{
+        display: inline-flex;     
+        flex-direction: row-reverse ;    /* Makes the button a flexbox container */
+        align-items: center;     /* Vertically centers the text */
+        justify-content: center; /* Horizontally centers the text */
+        padding: 10%;            /* You can adjust the padding as per your design */
+        text-align: center; 
+        border-radius: 25%;     /* Ensure text is centered */
+    }
+    .box{
+        width: 70%;
+        border: 1px solid rgb(20, 17, 12);
+        margin-top: 10px;
+        margin-bottom: 7px;
+        border-radius: 10Px;
+    }
+    
+   }

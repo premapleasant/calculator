@@ -13,7 +13,7 @@ A basic calculator built with **HTML, CSS, and JavaScript** to perform arithmeti
 4️⃣ Press "C" to clear input.  
 
 ## Live Demo  
-🔗 [Live Link]() *(Replace `#` with your actual link)*  
+🔗 [Live Link](https://premapleasant.github.io/calculator/)
 
 ## Technologies Used  
 - HTML  
